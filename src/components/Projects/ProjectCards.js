@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { CgWebsite } from "react-icons/cg";
+import { CgWebsite, CgGames, CgController, CgPlayButton } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 
 function ProjectCards(props) {
@@ -33,6 +33,19 @@ function ProjectCards(props) {
             {"Demo"}
           </Button>
         )}
+
+        {!props.isBlog && props.gameLink && (
+          <Button
+            variant="primary"
+            href={props.gameLink}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <CgGames /> &nbsp;
+            {"Play"}
+          </Button>
+        )}
+
       </Card.Body>
     </Card>
   );
