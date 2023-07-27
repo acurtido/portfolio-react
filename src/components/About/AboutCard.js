@@ -38,7 +38,8 @@ function AboutCard() {
         </blockquote> */}
 
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
+          {/* <p style={{ textAlign: "justify" }}> */}
+          <p>
             Hello, my name is <span className="purple">Ariel Curtido</span>, I'm from Paraguay and I am a Software Engineer with 10 years of experience in web solutions and ERP platforms. I have worked on projects involving front-end and back-end development, database design, system integration, and cloud computing.
             <br />
             <br />

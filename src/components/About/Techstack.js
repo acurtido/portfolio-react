@@ -21,58 +21,55 @@ import {
   SiUnity,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
+import pythonLogo from "../../Assets/Technologies/logo-python.png";
+import dotNetLogo from "../../Assets/Technologies/logo-dotnet.png";
+import gitLogo from "../../Assets/Technologies/logo-git.png";
+import jsLogo from "../../Assets/Technologies/logo-javascript.png";
+import nodeLogo from "../../Assets/Technologies/logo-node.png";
+import oracleLogo from "../../Assets/Technologies/logo-oracle.png";
+import postgresLogo from "../../Assets/Technologies/logo-postgres.png";
+import reactLogo from "../../Assets/Technologies/logo-react.png";
+import unityLogo from "../../Assets/Technologies/logo-unity.png";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython /> <h5><strong className="purple">Python</strong></h5>
+        <img src={pythonLogo} alt="about" className="img-fluid" />
+        <h5><strong className="purple">Python</strong></h5>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiDotnet /> <h5><strong className="purple">.NET</strong></h5>
+        <img src={dotNetLogo} alt="about" className="img-fluid" />
+        <h5><strong className="purple">.NET</strong></h5>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 /> <h5><strong className="purple">Javascript</strong></h5>
-      </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col> */}
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs /> <h5><strong className="purple">Node JS</strong></h5>
+        <img src={jsLogo} alt="about" className="img-fluid" />
+        <h5><strong className="purple">Javascript</strong></h5>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact /> <h5><strong className="purple">React</strong></h5>
-      </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <img src={nodeLogo} alt="about" className="img-fluid" />
+        <h5><strong className="purple">Node JS</strong></h5>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <img src={reactLogo} alt="about" className="img-fluid" />
+        <h5><strong className="purple">React</strong></h5>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col> */}
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit /> <h5><strong className="purple">Git</strong></h5>
+        <img src={gitLogo} alt="about" className="img-fluid" />
+        <h5><strong className="purple">Git</strong></h5>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiUnity /> <h5><strong className="purple">Unity 3D</strong></h5>
-      </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <img src={unityLogo} alt="about" className="img-fluid" />
+        <h5><strong className="purple">Unity 3D</strong></h5>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col> */}
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql /> <h5><strong className="purple">PostgreSQL</strong></h5>
+        <img src={postgresLogo} alt="about" className="img-fluid" />
+        <h5><strong className="purple">PostgreSQL</strong></h5>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiOracle /> <h5><strong className="purple">Oracle</strong></h5>
+        <img src={oracleLogo} alt="about" className="img-fluid" />
+        <h5><strong className="purple">Oracle</strong></h5>
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col> */}
     </Row>
   );
 }
