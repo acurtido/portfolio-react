@@ -40,10 +40,10 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           {/* <p style={{ textAlign: "justify" }}> */}
           <p>
-            Hello, my name is <span className="purple">Ariel Curtido</span>, I'm from Paraguay and I am a Software Engineer with 10 years of experience in web solutions and ERP platforms. I have worked on projects involving front-end and back-end development, database design, system integration, and cloud computing.
+            Hello, my name is <span className="purple">Ariel Curtido</span>, I'm from Paraguay and, I am a Software Engineer with 10 years of experience in web solutions and ERP platforms. I have worked on projects involving front-end and, back-end development, database design, system integration, and, cloud computing.
             <br />
             <br />
-            I have extensive knowledge of web technologies such as <span className="purple">HTML, CSS, JavaScript, C#, Python and SQL</span>. I am proficient in using frameworks and libraries such as <span className="purple">React, Redux, Django and DRF</span>. I am also familiar with cloud platforms such as <span className="purple">AWS, Azure and Google Cloud</span>. I enjoy solving complex problems and learning new skills. I am looking for new opportunities to apply my expertise and grow as a professional.
+            I have extensive knowledge of web technologies such as <span className="purple">HTML, CSS, JavaScript, C#, Python and SQL</span>. I am proficient in using frameworks and libraries such as <span className="purple">React, Redux, Django and, DRF</span>. I am also familiar with cloud platforms such as <span className="purple">AWS, Azure and, Google Cloud</span>. I enjoy solving complex problems and, learning new skills. I am looking for new opportunities to apply my expertise and, grow as a professional.
           </p>
 
         </blockquote>
